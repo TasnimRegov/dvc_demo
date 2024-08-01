@@ -23,6 +23,6 @@ process:
 
 train:
   # n_est: 15
-  n_est: 30
+  n_est: 40
 
 model_dir: model
