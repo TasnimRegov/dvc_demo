@@ -22,6 +22,7 @@ process:
   test_file: final_test.csv
 
 train:
-  n_est: 15
- 
+  # n_est: 15
+  n_est: 30
+
 model_dir: model
