@@ -5,7 +5,10 @@ base:
 
 data_source:
   # gs_path: gs://dvc_project/
-  local_path: https://raw.githubusercontent.com/TripathiAshutosh/dataset/main/red_wine.csv
+  #local_path: https://raw.githubusercontent.com/TripathiAshutosh/dataset/main/red_wine.csv
+  
+  # public access repo
+  local_path: https://raw.githubusercontent.com/TasnimRegov/dvc_demo/main/dataset/red_wine.csv
 
 split:
   dir: data/split
@@ -19,8 +22,6 @@ process:
   test_file: final_test.csv
 
 train:
-  n_est: 35
+  n_est: 15
  
 model_dir: model
-
-
